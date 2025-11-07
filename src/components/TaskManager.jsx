@@ -27,8 +27,10 @@ const TaskManager = () => {
     }
 
     return (
+        
+
         <div>
-            <h3>Task Manager</h3>
+            <img src="./src/assets/icon.png" /> 
             <TaskAddForm addTask = {addTask} />
             <List list={tasks} removeTask = {removeTask}  />
         </div>

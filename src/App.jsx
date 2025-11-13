@@ -10,10 +10,11 @@ function App() {
 
   return (
     <> 
+
       <TaskManager></TaskManager>
       <Magnifier></Magnifier>
       <Images></Images>
-       
+    
     </>
   )
 }
